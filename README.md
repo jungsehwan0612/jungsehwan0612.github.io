@@ -11,5 +11,7 @@ ls: 해당 디렉토리에 들어 있는 파일 및 디렉토리를 리스트로
 git staging area에 해당 파일을 추가한다.
 ### 5. git commit -m "[COMMIT MESSAGE]"
 staging area에 들어 있는 파일(=변경 사항)을 commit 한다.
-###6. git push -u origin master
+### 6. git remote add [GITHUB REPOSITORY ADDRESS]
+현재 로컬 스토리지에 들어 있는 git 정보를 업로드 할 repository의 주소를 등록한다.
+### 7. git push -u origin master
 commit된 파일들을 로컬 스토리지에서 GitHub Repository로 복사한다.
