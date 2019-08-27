@@ -35,8 +35,8 @@ A는 B의 수정 내용을 반영한 repository를 끌어와 A의 코드를 자�
 ### 2. git branch [BRANCH NAME]
 위에서 언급한 A와 B는 Branch라는 기능을 사용하면 동시에 작업이 가능하다.
 A가 작업 중일 때, B가 git branch B라는 명령어를 입력하면 지금까지의 내용을 포함한 새로운 작업 분기점이 만들어진다. 이 분기점을 branch라 한다. (나무에서 갈라져 나온 나뭇가지 생각하면 된다.) 이 때, A가 작업하고 있던 기본 branch를 master brench라 한다.
-## 3. git merge [BRANCH NAME]
+###3. git merge [BRANCH NAME]
 A와 B가 모두 작업이 끝나면, 두 작업 내용을 합치는 작업이 필요하다. A가 master brench에서 git branch B라는 명령어를 입력하면 master brench와 B brench를 합치게 된다.
-## CONFLICT
+### CONFLICT
 위에서 언급한 경우와 마찬가지로 conflict 상황이 당연히 발생한다. 이 때 A가 작업한 내용만 반영하는지, B가 작업한 내용만 반영하는지, 혹은 둘이 겹치지 않는다면 둘 다 반영하는지를 선택해주면 된다.
 VS Code의 경우, 아주 편하게 클릭 한 번으로 세 가지 선택지 중 어떤 것을 선택할지 정할 수 있다.
